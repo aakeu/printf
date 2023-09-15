@@ -51,7 +51,7 @@ typedef struct parameters
 } params_t;
 
 /**
- * @f: the function associate with
+ * @f: the function associated
  */
 
 typedef struct specifier

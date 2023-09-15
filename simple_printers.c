@@ -4,12 +4,13 @@
  * print_from_to - prints a range of char address
  * @start: starting address
  * @stop: stopping address
- * except: except address
+ * @except: except address
+ * @char: the character
  *
  * Return: number btyes printed
  */
 
-int print_from_to(char *start, char *stop, char, char * except)
+int print_from_to(char *start, char *stop, char, char *except)
 {
 	int sum = 0;
 
@@ -24,10 +25,10 @@ int print_from_to(char *start, char *stop, char, char * except)
 }
 
 /**
- * print_rev - prints string with reverse 
+ * print_rev - prints string with reverse
  * @ap: string
  * @params: parameters struct
- * Return: number of bytes 
+ * Return: number of bytes
  */
 
 int print_rev(va_list ap, params_t *params)
@@ -48,10 +49,10 @@ int print_rev(va_list ap, params_t *params)
 }
 
 /**
- * print_rot13 - prints string
+ * print_rot13 - prints the string.
  * @ap: string
  * @params: parameters struct
- * Retunr: bytes printed
+ * Return: bytes printed
  */
 
 int print_rot13(va_list ap, params_t *params)

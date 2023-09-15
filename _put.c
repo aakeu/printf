@@ -12,12 +12,12 @@ int _puts(char *str)
 
 	while (*str)
 		_putchar(*str++);
-	return (str - a); 
+	return (str - a);
 }
 
 /**
  * _putchar - writes the character c to stdout
- * @c: The character to print 
+ * @c: The character to print
  *
  * Return: On sucess 1.
  * On error, -1 is returned, and error is set appropriate
